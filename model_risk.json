@@ -1,3 +1,3 @@
 raw_json
-{"Variable": "holding_reference", "Purpose": "Unique ID", "Description": "Unique ID (with fixes applied)", "Lineage doc": null, "Model_cat": "Mortgage_IRB""}"
+{"Variable": "holding_reference", "Purpose": "Unique ID", "Description": "Unique ID (with fixes applied)", "Lineage doc": null, "Model_cat": "Mortgage_IRB"}
 {"Variable": "holding_reference_orig", "Purpose": "Unique ID", "Description": "Unique ID (before fixes)", "Lineage doc": null, "Model_cat": "Mortgage_IRB"}
