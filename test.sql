@@ -469,104 +469,104 @@ WHERE CASE WHEN #AdviserTable.[Swift Status] = 'Left' AND #AdviserTable.DOL IS N
 	  END = 1
 AND 
 #AdviserTable.[Adviser UID] NOT IN (
-'1005260', -- Pre-Appointment Business Not true Firm
-'2001539', -- Duplicated
-'1011607', -- OMS payments only
-'1011608', -- OMS payments only
-'1011609', -- Zurich Independent Wealth Limited OMS payments only
-'2001815', -- Lee Newton Financial Services Duplicated
-'2004327', -- Open Market Solutions LLP Not true Firm
-'2002076', -- Openwork Limited Not AR's
-'2000812', -- Openwork National GD Not AR's
-'2004728', -- Openwork Corporate Not AR's
-'2005603', -- DB Pilot
-'2005605', -- Keith Truscott DB Pilot
-'4007962', -- Andrew Turner DB Pilot
-'2005601', -- Dominic O'Connor DB Pilot
-'2005599', -- Andrew Turner DB Pilot
-'2007293', -- Claire Dentith DB Pilot
-'2007295', -- Darren O'Neill DB Pilot
-'2007996', -- Keith Truscott2 DB Pilot
-'2008545', -- David Land 
-'2008526', -- Sarah Lambert 
-'2008591', -- Grant Hutton 
-'2008595', -- Peter Ditchburn 
-'2008661', -- Luke Best 1 DB Pilot
-'2008664', -- Stephen Andrews 1 DB Pilot
-'2008666', -- Timothy Felstead 1 DB Pilot
-'2008670', -- Paul Fell 1 DB Pilot
-'2000873', -- Knights Knox 
-'2009072', -- BLS Mortgage & Insurance Services Incorrect
-'2000686', -- Grosvenor Berkeley Financial Services Incorrect ID
-'2009397', -- Timothy Holmes 1 Pensions Transfer Specialist
-'1002915', -- Shaun Terence Matthews 
-'2010370', -- Bryan Duchart 1 DB Pilot
-'1003227', -- Menai Financial Services Simon Lambell Request
-'2011284', -- Liz Miles 1 DB Pilot
-'2011287', -- Andrew Earles 1 DB Pilot
-'2011312', -- Sarah Hogan 1  DB Pilot
-'20122SS', -- Keyed In Error Keyed In Error
-'2012714', -- Raymond O'Donnell (PTS) DB Pilot
-'2014206', -- Craig Loney 1 
-'2015145', -- Planguard Finance 
-'4002872', -- Duplicated
-'1001025', -- John Sharp Dead
-'4003785', -- Lee Newton Duplicated
-'4007961', -- Dominic O'Connor (PTS) DB Pilot
-'4007959', -- DB Pilot
-'1011677', -- Andrew Turner (PTS) DB Pilot
-'4007963', -- Keith Truscott1 DB Pilot
-'4009489', -- Darren O'Neill1 DB Pilot
-'4009488', -- Claire Dentith (PTS) DB Pilot
-'4009375', -- Lee Newman Deceased
-'4010182', -- GD Ex Clients DUMMY ACCOUNT
-'1003350', -- Tracyann Johnson New UID incorrectly created
-'4010455', -- Sarah Lambert1 Pensions Specialist
-'4010568', -- Stephen Andrews 1 Pensions Specialist
-'4010513', -- Peter Ditchburn 1 Pensions Specialist
-'4010566', -- Luke Best 1 Pensions Specialist
-'4010573', -- Paul Fell 1 Pensions Specialist
-'4010511', -- Grant Hutton 1 Pensions Specialist
-'4010570', -- Timothy Felstead 1 Pensions Specialist
-'4011182', -- Timothy Holmes 1 Pensions Transfer Specialist
-'4006771', -- Internal Transfer 
-'4011613', -- Mark Jones 1 Tranfer
-'4011213', -- Morven Turner Supervising Only
-'4012052', -- Bryan Duchart 1 DB Pilot
-'1011524', -- Dermot Dowling Requested exclude by Nick Bird - Check if needs to be removed
-'4012843', -- Sarah Hogan 1  DB Pilot
-'4012821', -- Andrew Earles 1 DB Pilot
-'4012820', -- Liz Miles 1 DB Pilot
-'401373',  -- Richard Dew Incorrect UID
-'4014315', -- Raymond O'Donnell (PTS) DB Pilot
-'2011284', -- Liz Miles 1 DB Pilot
-'2011287', -- Andrew Earles 1 DB Pilot
-'2011312', -- Sarah Hogan 1  DB Pilot
-'4015635', -- David Land (PTS)  
-'4015829', -- Craig Loney (PTS) 
-'4010475', -- David Land 
-'1012060', -- Mark Miskimmin OA PBO/Sale purposes and should not report
-'1012059', -- Philip White Set up by IT for access
---'4016276', -- Carley Warren-Aldworth 
---'1009390', -- Carley Warren-Aldworth 
-'1001168', -- Kenneth Bray Deceased but will not be changed to deceased
-'1004297', -- Michael Casburn Deceased but will not be changed to deceased
-'112 Roy', -- Incorrect UID
-'Bilal M', -- Incorrect UID  
-'Catheri', -- Incorrect UID  
-'Kurian',  -- Incorrect UID  
-'M1 3LD',  -- Incorrect UID  
-'Marc To', -- Incorrect UID  
-'Michael', -- Incorrect UID  
-'Pawel K', -- Incorrect UID  
-'SP17028', -- Incorrect UID  
-'4000810', -- Andrea Turner (Prosperity) Set up as Seller but not selling & no DT30 Track so exclude by UID
-'4023346',  -- Penny Group Pot Account set up AS IAR
-'1012745',  -- Simon Jukes OA PBO/Sale purposes and should not report
-'1003480',	-- William Lister died but left as active on Swift while new Principal set up
-'1012723', -- Sarah Collins OA set up to access OpenAccess for PBO purposes only
-'1012827', -- Paul Dalzell 22 OA set to access OpemAccess for PBO purposes
-'1012813'  -- Victoria Bone OA set up to access OpenAccess for PBO Purposes
+'1005260', 
+'2001539', 
+'1011607', 
+'1011608', 
+'1011609', 
+'2001815', 
+'2004327', 
+'2002076', 
+'2000812', 
+'2004728', 
+'2005603', 
+'2005605', 
+'4007962', 
+'2005601', 
+'2005599', 
+'2007293', 
+'2007295', 
+'2007996', 
+'2008545', 
+'2008526', 
+'2008591', 
+'2008595', 
+'2008661', 
+'2008664', 
+'2008666', 
+'2008670', 
+'2000873', 
+'2009072', 
+'2000686', 
+'2009397', 
+'1002915', 
+'2010370', 
+'1003227', 
+'2011284', 
+'2011287', 
+'2011312', 
+'20122SS', 
+'2012714', 
+'2014206', 
+'2015145', 
+'4002872', 
+'1001025', 
+'4003785', 
+'4007961', 
+'4007959', 
+'1011677', 
+'4007963', 
+'4009489', 
+'4009488', 
+'4009375', 
+'4010182', 
+'1003350', 
+'4010455', 
+'4010568', 
+'4010513', 
+'4010566', 
+'4010573', 
+'4010511', 
+'4010570', 
+'4011182', 
+'4006771', 
+'4011613', 
+'4011213', 
+'4012052', 
+'1011524', 
+'4012843', 
+'4012821', 
+'4012820', 
+'401373',  
+'4014315', 
+'2011284', 
+'2011287', 
+'2011312', 
+'4015635', 
+'4015829', 
+'4010475', 
+'1012060', 
+'1012059', 
+--'4016276', 
+--'1009390', 
+'1001168', 
+'1004297', 
+'112 Roy', 
+'Bilal M', 
+'Catheri', 
+'Kurian',  
+'M1 3LD',  
+'Marc To', 
+'Michael', 
+'Pawel K', 
+'SP17028', 
+'4000810', 
+'4023346', 
+'1012745', 
+'1003480', 
+'1012723', 
+'1012827', 
+'1012813'  
 )
 
 AND  #AdviserTable.[Adviser UID] NOT IN (SELECT UD.USR_ExternalID
